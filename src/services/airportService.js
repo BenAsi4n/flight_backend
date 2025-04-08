@@ -19,7 +19,7 @@ const getAirports = async (keyword) => {
       },
       params: {
         keyword: keyword.trim(),
-        subType: "AIRPORT,CITY", // ✅ đúng format enum của Amadeus
+        subType: "AIRPORT", // ✅ đúng format enum của Amadeus
       },
     });
 
